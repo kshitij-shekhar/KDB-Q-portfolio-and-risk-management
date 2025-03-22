@@ -19,7 +19,7 @@ order_book: (`symbol`level`bid_price`ask_price`bid_size`ask_size`timestamp) ! ((
 risk_metrics: (`portfolioID`var_99`expected_shortfall`volatility`max_drawdown`leverage) ! ((),(),(),(),(),()) 
 
 // Users table (Trader credentials & permissions)
-users: (`userID`username`password_hash`role) ! ((),(),(),()) 
+users: (`userID`name`role) ! ((),(),()) 
 
 // ✅ Execution & Performance Monitoring ✅ //
 
